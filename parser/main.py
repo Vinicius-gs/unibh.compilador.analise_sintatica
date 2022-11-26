@@ -12,7 +12,7 @@ Esse eh o programa principal. Basta executa-lo.
 '''
 
 if __name__ == "__main__":
-   lexer = Lexer('C:\\Users\\Vinicius\\Desktop\\Compilador\\EP2\\parser\\prog1.txt')
+   lexer = Lexer('prog1.txt')
 
    parser = Parser(lexer)
 
